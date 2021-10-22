@@ -1,0 +1,238 @@
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(100, 112, 124);
+}
+
+header{
+    text-align: center;
+    font-family:  monospace;
+    font-weight: bold;
+    color:whitesmoke;
+    background-color: black;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header h1{
+    font-size: 400%;
+}
+
+header h2{
+    color:lightslategrey;
+}
+
+h2{
+    color:whitesmoke;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cuerpo{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.ejercicio{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-bottom: solid 2px;
+}
+
+.ejercicio h3{
+    color:whitesmoke;
+    background-color: black;
+    margin: 0px;
+    padding: 5px;
+    font-family:  monospace;
+}
+
+.ejercicio p{
+    margin-left: 1.5%;
+}
+
+.ejercicio:hover {
+    background-color: lightgrey;    
+}
+
+.enlace-ej{
+    text-decoration:none;
+    color: black;
+}
+
+.ejercicio-no-enlace{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-bottom: solid 2px;
+}
+
+.ejercicio-no-enlace h3{
+    color:whitesmoke;
+    background-color: black;
+    margin: 0px;
+    padding: 5px;
+    font-family:  monospace;
+}
+
+.ejercicio-no-enlace p{
+    margin-left: 1.5%;
+}
+
+.footer{
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    font-family:  monospace;
+    font-weight: bold;
+    color:whitesmoke;
+    background-color: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10000px;
+}
+
+form{
+    line-height: 25px;
+}
+
+input:hover{
+    border:2px solid rgb(32, 101, 230);
+    border-radius: 2px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.tablas-bd table{
+    width: 100%;
+}
+
+.tablas-bd table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    overflow: hidden;
+    background-color:white;
+}
+
+.tablas-bd td{
+    width: max-content;
+}
+
+.tablas-bd th{
+    background-color: rgb(27, 28, 29);
+    color:white; 
+    text-transform: uppercase;  
+}
+
+table, td {
+    width:30%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    background-color: black;
+    color:white;
+    height: 40px;
+}
+
+td{
+    height: 30px;
+}
+
+.error{
+    background-color: rgb(194, 47, 47);
+    border: 2px solid red;
+    color:rgb(255, 255, 255);
+    padding: 2%;
+}
+
+.boton{
+    width:fit-content;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid rgb(21, 86, 207);
+    background-color: rgb(67, 123, 228);
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: large;
+    align-content: center;
+    color:white;
+    font-family: sans-serif;
+}
+
+input.boton{
+    line-height:normal;
+    margin-bottom: 0px;
+}
+
+.boton:hover{
+    border-radius: 2px;
+    background-color: rgb(32, 101, 230);
+}
+
+.boton-enlace{
+    text-decoration:none;
+}
+
+.bien{ 
+    background-color: rgb(73, 221, 118); 
+    border: 2px solid rgb(17, 206, 74); 
+    color:black; 
+    padding: 2%;
+}
+
+.aviso{ 
+    background-color: rgb(231, 220, 56); 
+    border: 2px solid rgb(251, 255, 0); 
+    color:black; 
+    padding: 2%;
+}
+
+.resultado{
+    background-color: rgb(50, 127, 199); 
+    border: 2px solid rgb(0, 162, 255); 
+    color:white; 
+    padding: 2%;
+}
+
+.paginador{
+    text-align: center;
+}
+.paginador a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 10px;
+    border: 1px solid rgb(25, 112, 211);
+    border-radius: 3px;
+    padding: 2px;
+    font-size: large;
+    background-color: rgb(21, 114, 168);
+    text-align: center;
+}
+
+.paginador a.activo{
+    color: rgb(25, 112, 211);
+    text-decoration: none;
+    letter-spacing: 10px;
+    border: 1px solid rgb(25, 112, 211);
+    border-radius: 3px;
+    padding: 2px;
+    font-size: large;
+    background-color: white;
+    text-align: center;
+}
